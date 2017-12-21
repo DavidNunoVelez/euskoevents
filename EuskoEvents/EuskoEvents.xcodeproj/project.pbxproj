@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E929D4FECBC1BF352E17CAD /* Pods_EuskoEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EDAAF6F903CB69463954E6 /* Pods_EuskoEvents.framework */; };
+		C1722D8C1FEC449A00E8E69B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1722D8B1FEC449A00E8E69B /* TableViewController.swift */; };
+		C17D74341FEC3BEC007A084F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17D74331FEC3BEC007A084F /* AppDelegate.swift */; };
+		C17D74391FEC3BEC007A084F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17D74371FEC3BEC007A084F /* Main.storyboard */; };
+		C17D743B1FEC3BEC007A084F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17D743A1FEC3BEC007A084F /* Assets.xcassets */; };
+		C17D743E1FEC3BEC007A084F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17D743C1FEC3BEC007A084F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49EDAAF6F903CB69463954E6 /* Pods_EuskoEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EuskoEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A5F4DA2C97A24977807F27 /* Pods-EuskoEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuskoEvents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EuskoEvents/Pods-EuskoEvents.debug.xcconfig"; sourceTree = "<group>"; };
+		C1722D8B1FEC449A00E8E69B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C17D74301FEC3BEC007A084F /* EuskoEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuskoEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17D74331FEC3BEC007A084F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C17D74381FEC3BEC007A084F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C17D743A1FEC3BEC007A084F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C17D743D1FEC3BEC007A084F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C17D743F1FEC3BEC007A084F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31205C4992B75BE7EA17195 /* Pods-EuskoEvents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuskoEvents.release.xcconfig"; path = "Pods/Target Support Files/Pods-EuskoEvents/Pods-EuskoEvents.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C17D742D1FEC3BEC007A084F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E929D4FECBC1BF352E17CAD /* Pods_EuskoEvents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49371ED153B53FE4A6642BEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49EDAAF6F903CB69463954E6 /* Pods_EuskoEvents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17D74271FEC3BEC007A084F = {
+			isa = PBXGroup;
+			children = (
+				C17D74321FEC3BEC007A084F /* EuskoEvents */,
+				C17D74311FEC3BEC007A084F /* Products */,
+				F8B66A0101314545239C17EC /* Pods */,
+				49371ED153B53FE4A6642BEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C17D74311FEC3BEC007A084F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C17D74301FEC3BEC007A084F /* EuskoEvents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C17D74321FEC3BEC007A084F /* EuskoEvents */ = {
+			isa = PBXGroup;
+			children = (
+				C17D74331FEC3BEC007A084F /* AppDelegate.swift */,
+				C1722D8B1FEC449A00E8E69B /* TableViewController.swift */,
+				C17D74371FEC3BEC007A084F /* Main.storyboard */,
+				C17D743A1FEC3BEC007A084F /* Assets.xcassets */,
+				C17D743C1FEC3BEC007A084F /* LaunchScreen.storyboard */,
+				C17D743F1FEC3BEC007A084F /* Info.plist */,
+			);
+			path = EuskoEvents;
+			sourceTree = "<group>";
+		};
+		F8B66A0101314545239C17EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94A5F4DA2C97A24977807F27 /* Pods-EuskoEvents.debug.xcconfig */,
+				F31205C4992B75BE7EA17195 /* Pods-EuskoEvents.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C17D742F1FEC3BEC007A084F /* EuskoEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17D74421FEC3BEC007A084F /* Build configuration list for PBXNativeTarget "EuskoEvents" */;
+			buildPhases = (
+				DB1F49472C7F7AB86D594852 /* [CP] Check Pods Manifest.lock */,
+				C17D742C1FEC3BEC007A084F /* Sources */,
+				C17D742D1FEC3BEC007A084F /* Frameworks */,
+				C17D742E1FEC3BEC007A084F /* Resources */,
+				37AC99907C85949ED548DBE0 /* [CP] Embed Pods Frameworks */,
+				6158DAE059C375559059B2F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EuskoEvents;
+			productName = EuskoEvents;
+			productReference = C17D74301FEC3BEC007A084F /* EuskoEvents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C17D74281FEC3BEC007A084F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.davidnuno;
+				TargetAttributes = {
+					C17D742F1FEC3BEC007A084F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C17D742B1FEC3BEC007A084F /* Build configuration list for PBXProject "EuskoEvents" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C17D74271FEC3BEC007A084F;
+			productRefGroup = C17D74311FEC3BEC007A084F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C17D742F1FEC3BEC007A084F /* EuskoEvents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C17D742E1FEC3BEC007A084F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17D743E1FEC3BEC007A084F /* LaunchScreen.storyboard in Resources */,
+				C17D743B1FEC3BEC007A084F /* Assets.xcassets in Resources */,
+				C17D74391FEC3BEC007A084F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37AC99907C85949ED548DBE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EuskoEvents/Pods-EuskoEvents-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EuskoEvents/Pods-EuskoEvents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6158DAE059C375559059B2F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EuskoEvents/Pods-EuskoEvents-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB1F49472C7F7AB86D594852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EuskoEvents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C17D742C1FEC3BEC007A084F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17D74341FEC3BEC007A084F /* AppDelegate.swift in Sources */,
+				C1722D8C1FEC449A00E8E69B /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C17D74371FEC3BEC007A084F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C17D74381FEC3BEC007A084F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C17D743C1FEC3BEC007A084F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C17D743D1FEC3BEC007A084F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C17D74401FEC3BEC007A084F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C17D74411FEC3BEC007A084F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C17D74431FEC3BEC007A084F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A5F4DA2C97A24977807F27 /* Pods-EuskoEvents.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EuskoEvents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidnuno.EuskoEvents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C17D74441FEC3BEC007A084F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31205C4992B75BE7EA17195 /* Pods-EuskoEvents.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EuskoEvents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidnuno.EuskoEvents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C17D742B1FEC3BEC007A084F /* Build configuration list for PBXProject "EuskoEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17D74401FEC3BEC007A084F /* Debug */,
+				C17D74411FEC3BEC007A084F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17D74421FEC3BEC007A084F /* Build configuration list for PBXNativeTarget "EuskoEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17D74431FEC3BEC007A084F /* Debug */,
+				C17D74441FEC3BEC007A084F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C17D74281FEC3BEC007A084F /* Project object */;
+}
