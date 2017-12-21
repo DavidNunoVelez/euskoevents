@@ -2,7 +2,7 @@
 //  TableViewController.swift
 //  EuskoEvents
 //
-//  Created by  on 21/12/17.
+//  Created by David Nuño on 21/12/17.
 //  Copyright © 2017 com.davidnuno. All rights reserved.
 //
 
@@ -29,6 +29,7 @@ class TableViewController: UITableViewController {
                 // Arreglamos los desperfectos
                 var temp = value.dropFirst(13) // jsonCallback(
                 temp = temp.dropLast(2) // );
+                
                 // La codificación de caractéres tampoco es válida, debería ser .utf8
                 if let dataFromString = temp.data(using: .isoLatin1, allowLossyConversion: false) {
                     
